@@ -1,0 +1,14 @@
+#text {
+	display: block;
+	margin: 0 auto 20px;
+	width: 75%;
+}
+
+#submit {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+#result {
+	text-align: center;
+}
