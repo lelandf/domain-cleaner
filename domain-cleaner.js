@@ -56,7 +56,7 @@ button.addEventListener("click", function () {
 	text = text.split(" ");
 	text.forEach(function (entry) {
 		if (validate_domain(entry) && !domain_found(entry) && accepted_extension(entry)) {
-			result.innerHTML = result.innerHTML + entry + '<br />';
+			result.innerHTML = result.innerHTML + entry + '<br>';
 		}
 	});
 });
